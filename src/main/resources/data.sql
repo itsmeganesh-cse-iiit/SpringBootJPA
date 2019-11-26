@@ -1,0 +1,1 @@
+insert into EMPLOYEE values (704,'ganesh','java');
