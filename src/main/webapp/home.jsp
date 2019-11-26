@@ -14,6 +14,11 @@
 		Emp Name<input type=text name=empName /><br>
 		<input type=submit />
 	</form>
+	
+	<form action="getEmployee">
+	<input type=text name=empId /><br>
+	<input type=submit />
+	</form>
 
 </body>
 </html>
