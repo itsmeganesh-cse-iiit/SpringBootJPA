@@ -26,6 +26,7 @@ public class EmployeeController {
 		repo.save(employee);
 		return "home.jsp";
 	}
+	
 
 	@RequestMapping("/getEmployee")
 	public ModelAndView getEmpployee(@RequestParam short empId) {
