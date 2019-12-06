@@ -31,8 +31,14 @@ public class EmployeeController {
 	public ModelAndView getEmpployee(@RequestParam short empId) {
 		ModelAndView mv = new ModelAndView("EmployeeDetails.jsp");
 	
+		System.out.println(repo.findByLanguage("C"));
+		
+		System.out.println(repo.findByEmpIdGreaterThan((short) 600));
+		
 		Employee employee = repo.findById(empId).orElse(new Employee());
 		mv.addObject(employee);
 		return mv;
 	}
+	// Need to implement update and delete operations
+	// need to write own crud methods
 }
