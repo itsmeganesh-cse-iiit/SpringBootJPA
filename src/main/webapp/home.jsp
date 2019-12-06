@@ -8,13 +8,14 @@
 </head>
 <body>
 
-
+<!-- 
 	<form action="addEmployee">
 		Emp Id <input type=text name=empId /><br>
 		Emp Name<input type=text name=empName /><br>
 		<input type=submit />
 	</form>
-	
+ -->
+ 	
 	<form action="getEmployee">
 	<input type=text name=empId /><br>
 	<input type=submit />
